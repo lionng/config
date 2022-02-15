@@ -11,3 +11,21 @@
  shell自动补全命令
  
  参考文章：https://zhuanlan.zhihu.com/p/199187317
+ 
+## vim插件
+ - Plug 'dense-analysis/ale'
+   - https://github.com/dense-analysis/ale#installation-with-vim-plug
+   - 检查shell的语法，提示语法错误信息
+ - Plug 'scrooloose/nerdtree'
+   - https://github.com/preservim/nerdtree
+   - 文件目录树
+ 
+ 
+# mac
+mac一些工具
+#### sed
+mac上的sed和linux上不同，使用gsed与linux对齐  
+```
+brew install gnu-sed
+```
+gsed命令代替mac的sed
